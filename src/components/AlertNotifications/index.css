@@ -1,0 +1,89 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 85%;
+    max-width: 1110px;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font: bold 24px/1.5 Roboto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 15px;
+}
+
+.message-container {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .message-container {
+    margin-top: 0px;
+  }
+}
+
+.message-heading {
+  font: 600 20px/1.5 Roboto;
+}
+
+@media screen and (min-width: 768px) {
+  .message-container {
+    font-size: 24px;
+  }
+}
+
+.description {
+  color: #64748b;
+  font: 500 16px/1.5 Roboto;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
